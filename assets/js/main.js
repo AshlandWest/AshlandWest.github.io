@@ -160,12 +160,10 @@
 function displayContentOnEnter(event) {
   const section = event.target;
   const skillContent = section.getElementsByClassName("skillContent")[0];
-  console.log("content ", skillContent);
   skillContent.style.display = "block";
 }
 function hideContentOnLeave(event) {
   const section = event.target;
   const skillContent = section.getElementsByClassName("skillContent")[0];
-  console.log("content ", skillContent);
   skillContent.style.display = "none";
 }

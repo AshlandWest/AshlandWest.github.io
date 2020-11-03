@@ -167,3 +167,17 @@ function hideContentOnLeave(event) {
   const skillContent = section.getElementsByClassName("skillContent")[0];
   skillContent.style.display = "none";
 }
+
+// Start Templates
+
+$(document).ready(function () {
+  const header = document.getElementById("header");
+  header.innerHTML =
+    '<a href="index.html" class="title">A Project by Ashland West</a><nav><ul><li><a href="index.html#intro">Home</a></li><li><a href="index.html#one">Projects</a></li><li><a href="index.html#two">Soft Skills</a></li><li><a href="index.html#three">Contact</a></li></ul></nav>';
+});
+
+// End Templates
+
+{
+
+}

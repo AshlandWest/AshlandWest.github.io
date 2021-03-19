@@ -168,6 +168,41 @@ function hideContentOnLeave(event) {
   skillContent.style.display = "none";
 }
 
+//Form code (yay captchas!)
+function onVerify() {
+  document.getElementById("contactForm").innerHTML = `
+  <p>
+    I am currently pursuing both freelance and full-time employment. Please use the form below to send job offers or requests for information. I will be quick to follow-up with you.
+  </p>
+  <div class="split style1">
+    <section>
+      <form method="post" action="mailto:ashlandmwest@gmail.com?subject=Employment%20Opportunity%20For%20Ashland%20West" enctype="text/plain">
+        <div class="fields">
+          <div class="field half">
+            <label for="name">Your Name</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="field half">
+            <label for="email">Your Email</label>
+            <input type="text" name="email" id="email" />
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <input type="text" name="message" id="message"></textarea>
+          </div>
+        </div>
+        <ul class="actions">
+         <input type="submit" value="Send Message">
+        </ul>
+      </form>
+      </section>
+        <section>
+          <h3>Notice</h3>
+          <p>The purpose of this form is to contact me regarding employment in the fields of Software Engineering and Web-Application Development.</p>
+          <p>Please do not use it to send unrelated offers or spam.</p>
+      </section>`;
+}
+
 // Start Templates
 
 $(document).ready(function () {
@@ -179,5 +214,4 @@ $(document).ready(function () {
 // End Templates
 
 {
-
 }

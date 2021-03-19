@@ -8,6 +8,7 @@
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
@@ -183,36 +184,10 @@
       <section id="three" class="wrapper style1 fade-up">
         <div class="inner">
           <h2>Get in touch</h2>
-          <p>
-            I am currently pursuing both freelance and full-time employment. Please use the form below to send job offers or requests for information. I will be quick to follow-up with you.
-          </p>
-          <div class="split style1">
-            <section>
-              <form method="post" action="#">
-                <div class="fields">
-                  <div class="field half">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" />
-                  </div>
-                  <div class="field half">
-                    <label for="email">Email</label>
-                    <input type="text" name="email" id="email" />
-                  </div>
-                  <div class="field">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" rows="5"></textarea>
-                  </div>
-                </div>
-                <ul class="actions">
-                  <li><a href="" class="button submit">Send Message</a></li>
-                </ul>
-              </form>
-            </section>
-            <section>
-              <h3>Notice</h3>
-              <p>The purpose of this form is to contact me regarding employment in the fields of Software Engineering and Web-Application Development.</p>
-                <p>Please do not use it to send unrelated offers or spam.</p>
-            </section>
+          <span id="contactForm">
+          <p>Do you know what crosswalks look like? How about traffic lights? Test your sight against the mighty CAPTCHA!</p>
+          <div class="g-recaptcha" data-sitekey="6LdlhYUaAAAAAM3gRLlKpFQFuKkoZnvyqKMFPLQt" data-callback="onVerify"></div>
+          </span>
           </div>
         </div>
       </section>

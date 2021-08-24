@@ -176,29 +176,13 @@ function onVerify() {
   </p>
   <div class="split style1">
     <section>
-      <form method="post" action="mailto:ashlandmwest@gmail.com?subject=Employment%20Opportunity%20For%20Ashland%20West" enctype="text/plain">
-        <div class="fields">
-          <div class="field half">
-            <label for="name">Your Name</label>
-            <input type="text" name="name" id="name" />
-          </div>
-          <div class="field half">
-            <label for="email">Your Email</label>
-            <input type="text" name="email" id="email" />
-          </div>
-          <div class="field">
-            <label for="message">Message</label>
-            <input type="text" name="message" id="message"></textarea>
-          </div>
-        </div>
-        <ul class="actions">
-         <input type="submit" value="Send Message">
-        </ul>
-      </form>
+      <p>You can contact me by email or phone.</p>
+      <p>Email: <a mailto="ashlandmwest@gmail.com">ashlandmwest@gmail.com</a></p>
+      <p>Phone: <a href="tel:+1-707-495-4105">(707) 495-4105</a></p>
       </section>
         <section>
           <h3>Notice</h3>
-          <p>The purpose of this form is to contact me regarding employment in the fields of Software Engineering and Web-Application Development.</p>
+          <p>The purpose of these communication channels is to contact me regarding employment in the fields of Software Engineering and Web-Application Development.</p>
           <p>Please do not use it to send unrelated offers or spam.</p>
       </section>`;
 }

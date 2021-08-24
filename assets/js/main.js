@@ -177,7 +177,7 @@ function onVerify() {
   <div class="split style1">
     <section>
       <p>You can contact me by email or phone.</p>
-      <p>Email: <a mailto="ashlandmwest@gmail.com">ashlandmwest@gmail.com</a></p>
+      <p>Email: <a href="mailto:ashlandmwest@gmail.com">ashlandmwest@gmail.com</a></p>
       <p>Phone: <a href="tel:+1-707-495-4105">(707) 495-4105</a></p>
       </section>
         <section>
